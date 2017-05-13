@@ -195,3 +195,98 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    float: left;
+    width: 6em;
+    display: block;
+    top: 7em;
+  }
+
+  .site-nav-item {
+    display:block;
+    float:left;
+    width: 100%;
+  }
+
+  main {
+    padding-left: 6em;
+  }
+
+  img.site-logo-image {
+    width: 90%;
+  }
+
+  .movie-overview {
+    display: block;
+  }
+
+  footer.site-footer {
+      margin-left: 5em;
+      background-color: #333333;
+      padding-bottom: 6em;
+
+  }
+
+  nav.footer-nav {
+      float: left;
+      background-color: #333333;
+      color: white;
+      padding: 1.3em;
+      width: 50%;
+  }
+
+  section.about {
+      float: left;
+      width: 50%;
+      margin-right: -9em;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .movie-overview {
+    display: none;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie:first-child .movie-title {
+    display: block;
+  }
+
+  img.movie-backdrop {
+      margin-bottom: 2em;
+  }
+  
+  .movie-poster {
+    display: inline-block;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-poster {
+      width: 33.33%;
+      float: left;
+  }
+
+  .movie-title {
+      display: none;
+  }
+
+
+}
