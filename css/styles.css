@@ -270,7 +270,7 @@ figure {
   img.movie-backdrop {
       margin-bottom: 2em;
   }
-  
+
   .movie-poster {
     display: inline-block;
   }
@@ -280,13 +280,19 @@ figure {
   }
 
   .movie-poster {
-      width: 33.33%;
-      float: left;
+    width: 33.33%;
+    float: left;
   }
 
   .movie-title {
-      display: none;
+    display: none;
   }
 
+  footer.site-footer {
+    width: 100%;0% */
+    float: left;
+    float: left;
+    padding-bottom: 1em;
+  }
 
 }
